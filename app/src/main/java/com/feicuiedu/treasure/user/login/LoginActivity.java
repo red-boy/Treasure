@@ -93,8 +93,9 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @OnClick(R.id.btn_Login)
     public void onClick() {
-
         // 去做登陆的业务
+
+
         activityUtils.hideSoftKeyboard();
 
         // 验证密码是否符合要求

@@ -14,13 +14,16 @@ import android.widget.Toast;
 
 import java.lang.ref.WeakReference;
 
+/**
+ * 封装了一些工具：弹吐司，跳转页面，隐藏软键盘。。。
+ */
 public class ActivityUtils {
     // 弱引用
     private WeakReference<Activity> activityWeakReference;
     private WeakReference<Fragment> fragmentWeakReference;
-    //
+
     private Toast toast;
-    //
+
     public ActivityUtils(Activity activity) {
         activityWeakReference = new WeakReference<>(activity);
     }
@@ -49,7 +52,8 @@ public class ActivityUtils {
         }
     }
 
-    @SuppressWarnings("SameParameterValue") public void showToast(int resId){
+    @SuppressWarnings("SameParameterValue")
+    public void showToast(int resId){
         Activity activity = getActivity();
         if (activity != null) {
             String msg = activity.getString(resId);

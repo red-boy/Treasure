@@ -19,8 +19,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     private ActivityUtils activityUtils;
 
     public static final String ACTION_ENTER_HOME = "action.enter.home";

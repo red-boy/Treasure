@@ -2,10 +2,6 @@ package com.feicuiedu.treasure.user;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * 作者：yuanchao on 2016/7/13 0013 16:00
- * 邮箱：yuanchao@feicuiedu.com
- */
 public class User {
 //    {
 //        "UserName":"qjd",

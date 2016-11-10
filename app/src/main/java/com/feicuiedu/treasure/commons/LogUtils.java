@@ -1,5 +1,8 @@
 package com.feicuiedu.treasure.commons;
 
+/**
+ * 日志打印的工具类
+ */
 @SuppressWarnings("unused")
 public final class LogUtils {
 

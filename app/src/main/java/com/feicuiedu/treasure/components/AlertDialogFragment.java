@@ -10,8 +10,7 @@ import android.support.v7.app.AlertDialog;
 import com.feicuiedu.treasure.R;
 
 /**
- * 作者：yuanchao on 2016/7/13 0013 11:19
- * 邮箱：yuanchao@feicuiedu.com
+ * 自定义的Dialog布局
  */
 public class AlertDialogFragment extends DialogFragment {
 
